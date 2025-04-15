@@ -71,7 +71,7 @@ YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Lin
 Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
-**Project:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](url)<br/>
+**Project:** [https://github.com/rweckert/qFind](url)<br/>
 **Source:** [https://github.com/rweckert/qFind/blob/main/qFind.sh](url)<br/>
 **Documentation:** [https://github.com/rweckert/qFind/edit/main/README.md](url)<br/>
-**ScreenShot:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](url)<br/>
+**Screenshot:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](url)<br/>
