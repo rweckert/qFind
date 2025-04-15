@@ -62,16 +62,16 @@ The following applications are in general use of most Linux systems and are used
 ### Critical System Requirements:
 The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.
 
-- yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](url)
+- yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](https://github.com/v1cont/yad)
 
-The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](url)
+The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch)
 
 YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky.
 
 Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
-**Project:** [https://github.com/rweckert/qFind](url)<br/>
-**Source:** [https://github.com/rweckert/qFind/blob/main/qFind.sh](url)<br/>
-**Documentation:** [https://github.com/rweckert/qFind/edit/main/README.md](url)<br/>
-**Screenshot:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](url)<br/>
+**Project:** [https://github.com/rweckert/qFind](https://github.com/rweckert/qFind)<br/>
+**Source:** [https://github.com/rweckert/qFind/blob/main/qFind.sh]([url](https://github.com/rweckert/qFind/blob/main/qFind.sh))<br/>
+**Documentation:** [https://github.com/rweckert/qFind/edit/main/README.md](https://github.com/rweckert/qFind/edit/main/README.md)<br/>
+**Screenshot:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg)<br/>
