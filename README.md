@@ -64,7 +64,7 @@ The most important requirement is the yad (yet another dialog) application which
 
 - yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](url)
 
-The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch/blob/main/README.md](url)
+The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch.git](url)
 
 YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky.
 
