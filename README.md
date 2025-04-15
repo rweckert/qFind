@@ -4,6 +4,8 @@ qFind is a quick and simple file find utility for Linux.
 ### Script Purpose as a Tool:
 Open qFind and select the directory to search regarding a file. Inside the text box "File" type in the filename (or partial filename) you are looking for. To perform the search click on the ">" button. A search for the file will begin showing you progress of the search. Search results then appear showing you all items located that match the search.
 
+![qFind Screenshot](https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg)
+
 ### Setup:
 1) Save the qFind.sh file to a directory.
 2) Make the qFind.sh script executable by running the following command in the same directory as the qFind.sh file:<br/>
@@ -60,15 +62,16 @@ The following applications are in general use of most Linux systems and are used
 ### Critical System Requirements:
 The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.
 
-- yad 14.0+ (GTK+ 3.24.41)
+- yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](url)
 
-The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available here for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base.
+The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base.
 
-YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky - https://github.com/v1cont/yad
+YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky.
 
 Script interface written by: Robert W. Eckert - rweckert@gmail.com
+Please feel free to email to submit bugs, changes or requests.
 
 **Project:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](url)<br/>
-**Source:** sourceurl<br/>
+**Source:** [https://github.com/rweckert/qFind/blob/main/qFind.sh](url)<br/>
 **Documentation:** [https://github.com/rweckert/qFind/edit/main/README.md](url)<br/>
 **ScreenShot:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](url)<br/>
