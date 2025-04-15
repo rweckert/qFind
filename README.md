@@ -72,6 +72,6 @@ Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
 **Project:** [https://github.com/rweckert/qFind](https://github.com/rweckert/qFind)<br/>
-**Source:** [https://github.com/rweckert/qFind/blob/main/qFind.sh]([url](https://github.com/rweckert/qFind/blob/main/qFind.sh))<br/>
+**Source:** [https://github.com/rweckert/qFind/blob/main/qFind.sh](https://github.com/rweckert/qFind/blob/main/qFind.sh)<br/>
 **Documentation:** [https://github.com/rweckert/qFind/edit/main/README.md](https://github.com/rweckert/qFind/edit/main/README.md)<br/>
 **Screenshot:** [https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg)<br/>
