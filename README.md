@@ -84,7 +84,7 @@ Terminal=false<br/>
 
 ### Project Contents:
 **Project Page:** <br/>
-[https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md](https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md)<br/>
+[https://github.com/rweckert/qFind](https://github.com/rweckert/qFind)<br/>
 **Source File:** <br/>
 [https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh)<br/>
 **Documentation File:** <br/>
