@@ -71,7 +71,11 @@ YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Lin
 Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
-**Project:** [https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md](https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md)<br/>
-**Source:** [https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh)<br/>
-**Documentation:** [https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md)<br/>
-**Screenshot:** [https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg)
+**Project Page:**
+[https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md](https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md)<br/>
+**Source File:**
+[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh)<br/>
+**Documentation File:**
+[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md)<br/>
+**Project Screenshot:**
+[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg)
