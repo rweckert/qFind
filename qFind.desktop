@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=qFind
-GenericName=qFind
-Comment=A quick and simple file find utility.
-Exec=/PathToScript/qFind.sh
-Type=Application
-Icon=gtk-find
-Terminal=false
-# Linux shortcut file for script qFind.sh v:1.1
