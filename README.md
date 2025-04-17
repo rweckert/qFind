@@ -71,7 +71,8 @@ YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Lin
 Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
-### qFind Shortcut File: qFind.desktop <br/>
+### qFind Shortcut File: <br/>
+Save the following as a file named "qFind.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored.<br/>
 [Desktop Entry]<br/>
 Name=qFind<br/>
 GenericName=qFind<br/>
@@ -81,6 +82,7 @@ Type=Application<br/>
 Icon=gtk-find<br/>
 Terminal=false<br/>
 
+### Project Contents:
 **Project Page:** <br/>
 [https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md](https://github.com/rweckert/qFind/blob/28668f44dafde4306f7e7dff22c0cd19fac7425d/README.md)<br/>
 **Source File:** <br/>
