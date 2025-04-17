@@ -1,5 +1,5 @@
 #!/bin/bash
-# qFind.sh Created: 11/22/2021 Updated: 04/14/2025
+# qFind.sh Created: 11/22/2021 Updated: 04/16/2025
 # Robert W. Eckert - rweckert@gmail.com
 #        ___________.__            .___
 #   _____\_   _____/|__| ____    __| _/
@@ -77,9 +77,9 @@ $fcall lResults
 
 # Browse Folder: =======================
 function bFolder {
-read gfp < $tf
+read gfp < "$tf"
 bf=$(dirname "$gfp")
-xdg-open $bf
+xdg-open "$bf"
 lResults
 }
 $fcall bFolder
@@ -124,7 +124,7 @@ $fcall mTheme
 # User Selected Theme: =================
 function tUser {
 read gut < "$tf"
-sed -i '/stheme:/d' $ti
+sed -i '/stheme:/d' "$ti"
 echo "stheme:$gut" >> "$ti"
 tApply
 }
@@ -134,11 +134,11 @@ $fcall tUser
 function tSystem {
 read gst < "$tf"
 if [ "$gst" = "Dark Theme" ]; then
-sed -i '/stheme:/d' $ti
+sed -i '/stheme:/d' "$ti"
 echo "stheme:/usr/share/themes/Breeze-Dark/gtk-4.0/gtk.css" >> "$ti"
 fi
 if [ "$gst" = "Light Theme" ]; then
-sed -i '/stheme:/d' $ti
+sed -i '/stheme:/d' "$ti"
 echo "stheme:/usr/share/themes/Breeze/gtk-4.0/gtk.css" >> "$ti"
 fi
 tApply
@@ -197,7 +197,7 @@ yad --about --css="$tp" \
 --authors="Robert W Eckert - rweckert@gmail.com" \
 --license="GPL3" \
 --comments="A quick and simple file find utility." \
---copyright="Updated 04/14/2025 by Robert W Eckert" \
+--copyright="Updated 04/16/2025 by Robert W Eckert" \
 --pversion="Version: 1.1" \
 --pname="qFind" \
 --button="Close!gtk-close":1
