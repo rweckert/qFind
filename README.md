@@ -32,14 +32,14 @@ Open qFind and select the directory to search regarding a file. Inside the text 
 
 ### Theme Options:
 When viewing the "Theme" option, the following options are available:<br/>
-**Load Theme:** Allows the user to browse their system for a theme to use.<br/>
-**Apply Loaded Theme:** Applies the loaded theme. Once selected the Options window will close and re-open showing the theme selected in use.<br/>
-**Mode:** Select basic system theme available in the system for "Light Theme" or "Dark Theme". This default uses the "Breeze" theme package located in the "/usr/share/themes/" folder.<br/>
-**Apply System Theme:** Applies the Mode selected for either "Light Theme" or "Dark Theme". Once selected the Options window will close and re-open showing the theme selected in use.<br/>
-**Browse Themes Folder:** Browse the default themes folder "/usr/share/themes/".<br/>
-**Help:** Opens qFind help documentation.<br/>
-**About:** Opens the about window showing script credits.<br/>
-**Close:** Closes the "Options" window.
+**- Load Theme:** Allows the user to browse their system for a theme to use.<br/>
+**- Apply Loaded Theme:** Applies the loaded theme. Once selected the Options window will close and re-open showing the theme selected in use.<br/>
+**- Mode:** Select basic system theme available in the system for "Light Theme" or "Dark Theme". This default uses the "Breeze" theme package located in the "/usr/share/themes/" folder.<br/>
+**- Apply System Theme:** Applies the Mode selected for either "Light Theme" or "Dark Theme". Once selected the Options window will close and re-open showing the theme selected in use.<br/>
+**- Browse Themes Folder:** Browse the default themes folder "/usr/share/themes/".<br/>
+**- Help:** Opens qFind help documentation.<br/>
+**- About:** Opens the about window showing script credits.<br/>
+**- Close:** Closes the "Options" window.
 
 ### Notes:
 - qFind can be ran from any directory.
