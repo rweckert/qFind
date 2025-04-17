@@ -157,7 +157,7 @@ $fcall tApply
 
 # Main Help: ===========================
 function mHelp {
-yad --html --browser --css="$tp" --width=900 --height=500 --posx=20 --posy=115 --title="qFind-Documentation" --name="mHelp" --window-icon="text-html"  --uri="https://github.com/rweckert/qFind/edit/main/README.md" --file-op
+yad --html --browser --css="$tp" --width=900 --height=500 --posx=20 --posy=115 --title="qFind-Documentation" --name="mHelp" --window-icon="text-html"  --uri="https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md" --file-op
 }
 $fcall mHelp
 
