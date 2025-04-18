@@ -72,7 +72,7 @@ Script interface written by: Robert W. Eckert - rweckert@gmail.com
 Please feel free to email to submit bugs, changes or requests.
 
 ### qFind Shortcut File: <br/>
-Save the following as a file named "qFind.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored.<br/>
+Save the following as a file named "qFind.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored:<br/>
 [Desktop Entry]<br/>
 Name=qFind<br/>
 GenericName=qFind<br/>
