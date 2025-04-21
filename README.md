@@ -53,6 +53,7 @@ The following applications are in general use of most Linux systems and are used
 - basename
 - cp
 - find
+- printf
 - read
 - rm
 - sed
