@@ -1,5 +1,5 @@
 #!/bin/bash
-# qFind.sh Created: 11/22/2021 Updated: 04/16/2025
+# qFind.sh Created: 11/22/2021 Updated: 04/20/2025
 # Robert W. Eckert - rweckert@gmail.com
 #        ___________.__            .___
 #   _____\_   _____/|__| ____    __| _/
@@ -54,7 +54,7 @@ done < "$fl" | yad --progress --css="$tp" --text="" --title="Performing qFind Se
 
 sed -i 's/,/\n/g' "$fr"
 of='@sh -c "echo %s > $fo & $app fOpen"'
-ydo=$(yad --list --css="$tp" --posx=20 --posy=115 --width=500 --height=500 --title="qFind-Results" --name="vResults" --window-icon="text-x-script" --dclick-action="$of" --grid-lines="vert" --grid-lines="hor" --search-column="1" --button="Browse Selected":0 --button="Refresh":3 --button="Save Results":2 --button="Close":1 --column="Path" --column="Extension" --column="Size" --column="Date" --column="Modified" --column="Owner" --column="Permissions" < "$fr" > "$tf")
+ydo=$(yad --list --css="$tp" --posx=20 --posy=115 --width=500 --height=500 --title="qFind-Results" --name="vResults" --window-icon="text-x-script" --dclick-action="$of" --grid-lines="vert" --grid-lines="hor" --search-column="1" --f1-action="$app mHelp" --button="Browse Selected":0 --button="Refresh":3 --button="Save Results":2 --button="Close":1 --column="Path" --column="Extension" --column="Size" --column="Date" --column="Modified" --column="Owner" --column="Permissions" < "$fr" > "$tf")
 ydo=$?
 if [[ $ydo -eq 0 ]]; then $app bFolder; fi
 if [[ $ydo -eq 1 ]]; then wmctrl -c 'qFind-Results'; fi
@@ -66,7 +66,7 @@ $fcall vResults
 # Load Results: ========================
 function lResults {
 of='@sh -c "echo %s > $fo & $app fOpen"'
-ydo=$(yad --list --css="$tp" --posx=20 --posy=115 --width=500 --height=500 --title="qFind-Results" --name="vResults" --window-icon="text-x-script" --dclick-action="$of" --grid-lines="vert" --grid-lines="hor" --search-column="1" --button="Browse Selected":0 --button="Refresh":3 --button="Save Results":2 --button="Close":1 --column="Path" --column="Extension" --column="Size" --column="Date" --column="Modified" --column="Owner" --column="Permissions" < "$fr" > "$tf")
+ydo=$(yad --list --css="$tp" --posx=20 --posy=115 --width=500 --height=500 --title="qFind-Results" --name="vResults" --window-icon="text-x-script" --dclick-action="$of" --grid-lines="vert" --grid-lines="hor" --search-column="1" --f1-action="$app mHelp" --button="Browse Selected":0 --button="Refresh":3 --button="Save Results":2 --button="Close":1 --column="Path" --column="Extension" --column="Size" --column="Date" --column="Modified" --column="Owner" --column="Permissions" < "$fr" > "$tf")
 ydo=$?
 if [[ $ydo -eq 0 ]]; then $app bFolder; fi
 if [[ $ydo -eq 1 ]]; then wmctrl -c 'qFind-Results'; fi
@@ -197,7 +197,7 @@ yad --about --css="$tp" \
 --authors="Robert W Eckert - rweckert@gmail.com" \
 --license="GPL3" \
 --comments="A quick and simple file find utility." \
---copyright="Updated 04/16/2025 by Robert W Eckert" \
+--copyright="Updated 04/20/2025 by Robert W Eckert" \
 --pversion="Version: 1.1" \
 --pname="qFind" \
 --button="Close!gtk-close":1
