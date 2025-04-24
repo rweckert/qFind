@@ -1,18 +1,19 @@
-# qFind
+# <img align="left" width="48" src="Icon-qFind.png" /> qFind
 qFind is a quick and simple file find utility for Linux.
 
 ### Script Purpose as a Tool:
-Open qFind and select the directory to search regarding a file. Inside the text box "File" type in the filename (or partial filename) you are looking for. To perform the search click on the ">" button. A search for the file will begin showing you progress of the search. Search results then appear showing you all items located that match the search.
+Open qFind and select the directory to search regarding a file. Inside the text box "File" type in the filename (or partial filename) you are looking for. To perform the search click on the ">" button. A search for the file will begin showing you progress of the search. Search results then appear displaying all items located that match the search. Search results display full path of the file found and the capability of sorting by file extension, size, creation date, modified date, owner and permissions.
 
 ![qFind Screenshot](https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg)
 
 ### Setup:
-1) Save the qFind.sh file to a directory.
-2) Make the qFind.sh script executable by running the following command in the same directory as the qFind.sh file:<br/>
+1. Please review "[Common System Requirements](https://github.com/rweckert/qFind/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements](https://github.com/rweckert/qFind/blob/main/README.md#critical-system-requirements)" sections below for basic and critical requirements to run this script successfully. <br/>
+2) Save the qFind.sh file to a directory.
+3) Make the qFind.sh script executable by running the following command in the same directory as the qFind.sh file:<br/>
 _chmod +x qFind.sh_
 
 ### Features:
-- Find results can also be sorted by file extension, size, creation date, modified date, owner and permissions.
+- Search results can also be sorted by file extension, size, creation date, modified date, owner and permissions.
 - Select file found and browse folder that contains the listed file.
 - Open located file in search results by double click.
 - Multiple search results windows can be viewed at once.
@@ -47,32 +48,6 @@ When viewing the "Theme" option, the following options are available:<br/>
 - Performing a search starting from the home or root directory can take some time in order to search the entire storage device.
 - A search with no results found will display a blank results window.
 
-### Common System Requirements:
-The following applications are in general use of most Linux systems and are used in having qFind deliver output:
-- awk
-- basename
-- cp
-- find
-- printf
-- read
-- rm
-- sed
-- while
-- wmctrl
-- xdg-open
-
-### Critical System Requirements:
-The most important requirement is the yad (yet another dialog) application which allows for the use of custom dialog, menu, and window options.
-
-- yad 14.0+ (GTK+ 3.24.41) [https://github.com/v1cont/yad](https://github.com/v1cont/yad)
-
-The qFind script uses features of yad that do require version 14.0+ and built with GTK+ 3.24.41 or higher. Full setup instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch)
-
-YAD (Yet Another Dialog), a tool for developing graphical user interfaces in Linux, is written by Victor Ananjevsky.
-
-Script interface written by: Robert W. Eckert - rweckert@gmail.com
-Please feel free to email to submit bugs, changes or requests.
-
 ### qFind Shortcut File: <br/>
 Save the following as a file named "qFind.desktop" in creating a shortcut to this utility. Update the path for "Exec" to where the script is stored:<br/>
 [Desktop Entry]<br/>
@@ -84,12 +59,25 @@ Type=Application<br/>
 Icon=gtk-find<br/>
 Terminal=false<br/>
 
+### Common System Requirements:
+Common shell commands found in most Linux installations are used to provide system functionalilty for this and other scripts shared from this profile. For thoroughness, these common shell commands are listed in alphabetical order with version and man page link for review: [https://github.com/rweckert/qFind/blob/a004ec8ad76cfc68f9db95ec9c758e7225bf9919/README-Basic-Requirements.md](https://github.com/rweckert/qFind/blob/a004ec8ad76cfc68f9db95ec9c758e7225bf9919/README-Basic-Requirements.md)
+
+### Critical System Requirements:
+Packages listed below provide the core ingredients for graphic display and desired output that enables mRunner to deliver output and are critical for successful execution of the the script:
+| Package       | Version              | Notes         |
+|     :---:     |         :---:        | :---          |
+| yad           | 14.0+ (GTK+ 3.24.41) | A tool for developing graphical user interfaces in Linux and is used by this script to generate menus and dialog windows, is written by Victor Ananjevsky. **Download:** [https://github.com/v1cont/yad](https://github.com/v1cont/yad) **Setup:** Step by step instructions are available for either Linux or Microsoft Windows Subsystem for Linux (WSL) using a Debian base: [https://github.com/rweckert/yad-14.0-Setup-From-Scratch](https://github.com/rweckert/yad-14.0-Setup-From-Scratch) |
+
 ### Project Contents:
 **Project Page:** <br/>
-[https://github.com/rweckert/qFind](https://github.com/rweckert/qFind)<br/>
+[https://github.com/rweckert/qFind](https://github.com/rweckert/qFind) <br/>
 **Source File:** <br/>
-[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh)<br/>
+[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/qFind.sh) <br/>
 **Documentation File:** <br/>
-[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md)<br/>
+[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md) <br/>
 **Project Screenshot:** <br/>
 [https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg)
+**Project License:** <br/>
+[https://github.com/rweckert/qFind/blob/a004ec8ad76cfc68f9db95ec9c758e7225bf9919/LICENSE](https://github.com/rweckert/qFind/blob/a004ec8ad76cfc68f9db95ec9c758e7225bf9919/LICENSE) <br/>
+**GitHub Profile Page:** <br/>
+[https://github.com/rweckert](https://github.com/rweckert)
