@@ -7,7 +7,7 @@ Open qFind and select the directory to search regarding a file. Inside the text 
 ![qFind Screenshot](https://github.com/rweckert/qFind/blob/main/screenshot-qFind-04-14-2025.jpg)
 
 ### Setup:
-1. Please review "[Common System Requirements](https://github.com/rweckert/qFind/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements](https://github.com/rweckert/qFind/blob/main/README.md#critical-system-requirements)" sections below for basic and critical requirements to run this script successfully. <br/>
+1. Please review "[Common System Requirements](https://github.com/rweckert/qFind/blob/main/README.md#common-system-requirements)" and "[Critical System Requirements](https://github.com/rweckert/qFind/blob/main/README.md#critical-system-requirements)" sections below for basic and critical requirements to run this script successfully.
 2) Save the qFind.sh file to a directory.
 3) Make the qFind.sh script executable by running the following command in the same directory as the qFind.sh file:<br/>
 _chmod +x qFind.sh_
