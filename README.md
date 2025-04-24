@@ -76,7 +76,7 @@ Packages listed below provide the core ingredients for graphic display and desir
 **Documentation File:** <br/>
 [https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/README.md) <br/>
 **Project Screenshot:** <br/>
-[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg)
+[https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg](https://github.com/rweckert/qFind/blob/90a9d4ed8c3fc0b7858694997d1b6650066edda6/screenshot-qFind-04-14-2025.jpg) <br/>
 **Project License:** <br/>
 [https://github.com/rweckert/qFind/blob/a004ec8ad76cfc68f9db95ec9c758e7225bf9919/LICENSE](https://github.com/rweckert/qFind/blob/a004ec8ad76cfc68f9db95ec9c758e7225bf9919/LICENSE) <br/>
 **GitHub Profile Page:** <br/>
